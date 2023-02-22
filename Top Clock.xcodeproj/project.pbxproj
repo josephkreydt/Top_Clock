@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C6AA4B229A6946A0027A4AD /* Top_ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA4B129A6946A0027A4AD /* Top_ClockApp.swift */; };
+		7C6AA4B429A6946A0027A4AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA4B329A6946A0027A4AD /* ContentView.swift */; };
+		7C6AA4B629A6946C0027A4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6AA4B529A6946C0027A4AD /* Assets.xcassets */; };
+		7C6AA4B929A6946C0027A4AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6AA4B829A6946C0027A4AD /* Preview Assets.xcassets */; };
+		7C6AA4C429A6946C0027A4AD /* Top_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA4C329A6946C0027A4AD /* Top_ClockTests.swift */; };
+		7C6AA4CE29A6946C0027A4AD /* Top_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA4CD29A6946C0027A4AD /* Top_ClockUITests.swift */; };
+		7C6AA4D029A6946C0027A4AD /* Top_ClockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA4CF29A6946C0027A4AD /* Top_ClockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C6AA4C029A6946C0027A4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6AA4A629A6946A0027A4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6AA4AD29A6946A0027A4AD;
+			remoteInfo = "Top Clock";
+		};
+		7C6AA4CA29A6946C0027A4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C6AA4A629A6946A0027A4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C6AA4AD29A6946A0027A4AD;
+			remoteInfo = "Top Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C6AA4AE29A6946A0027A4AD /* Top Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6AA4B129A6946A0027A4AD /* Top_ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_ClockApp.swift; sourceTree = "<group>"; };
+		7C6AA4B329A6946A0027A4AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C6AA4B529A6946C0027A4AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C6AA4B829A6946C0027A4AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C6AA4BA29A6946C0027A4AD /* Top_Clock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Top_Clock.entitlements; sourceTree = "<group>"; };
+		7C6AA4BF29A6946C0027A4AD /* Top ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6AA4C329A6946C0027A4AD /* Top_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_ClockTests.swift; sourceTree = "<group>"; };
+		7C6AA4C929A6946C0027A4AD /* Top ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6AA4CD29A6946C0027A4AD /* Top_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_ClockUITests.swift; sourceTree = "<group>"; };
+		7C6AA4CF29A6946C0027A4AD /* Top_ClockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_ClockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C6AA4AB29A6946A0027A4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6AA4BC29A6946C0027A4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6AA4C629A6946C0027A4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6AA4A529A6946A0027A4AD = {
+			isa = PBXGroup;
+			children = (
+				7C6AA4B029A6946A0027A4AD /* Top Clock */,
+				7C6AA4C229A6946C0027A4AD /* Top ClockTests */,
+				7C6AA4CC29A6946C0027A4AD /* Top ClockUITests */,
+				7C6AA4AF29A6946A0027A4AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C6AA4AF29A6946A0027A4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C6AA4AE29A6946A0027A4AD /* Top Clock.app */,
+				7C6AA4BF29A6946C0027A4AD /* Top ClockTests.xctest */,
+				7C6AA4C929A6946C0027A4AD /* Top ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C6AA4B029A6946A0027A4AD /* Top Clock */ = {
+			isa = PBXGroup;
+			children = (
+				7C6AA4B129A6946A0027A4AD /* Top_ClockApp.swift */,
+				7C6AA4B329A6946A0027A4AD /* ContentView.swift */,
+				7C6AA4B529A6946C0027A4AD /* Assets.xcassets */,
+				7C6AA4BA29A6946C0027A4AD /* Top_Clock.entitlements */,
+				7C6AA4B729A6946C0027A4AD /* Preview Content */,
+			);
+			path = "Top Clock";
+			sourceTree = "<group>";
+		};
+		7C6AA4B729A6946C0027A4AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C6AA4B829A6946C0027A4AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C6AA4C229A6946C0027A4AD /* Top ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6AA4C329A6946C0027A4AD /* Top_ClockTests.swift */,
+			);
+			path = "Top ClockTests";
+			sourceTree = "<group>";
+		};
+		7C6AA4CC29A6946C0027A4AD /* Top ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7C6AA4CD29A6946C0027A4AD /* Top_ClockUITests.swift */,
+				7C6AA4CF29A6946C0027A4AD /* Top_ClockUITestsLaunchTests.swift */,
+			);
+			path = "Top ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C6AA4AD29A6946A0027A4AD /* Top Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6AA4D329A6946C0027A4AD /* Build configuration list for PBXNativeTarget "Top Clock" */;
+			buildPhases = (
+				7C6AA4AA29A6946A0027A4AD /* Sources */,
+				7C6AA4AB29A6946A0027A4AD /* Frameworks */,
+				7C6AA4AC29A6946A0027A4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top Clock";
+			productName = "Top Clock";
+			productReference = 7C6AA4AE29A6946A0027A4AD /* Top Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C6AA4BE29A6946C0027A4AD /* Top ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6AA4D629A6946C0027A4AD /* Build configuration list for PBXNativeTarget "Top ClockTests" */;
+			buildPhases = (
+				7C6AA4BB29A6946C0027A4AD /* Sources */,
+				7C6AA4BC29A6946C0027A4AD /* Frameworks */,
+				7C6AA4BD29A6946C0027A4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6AA4C129A6946C0027A4AD /* PBXTargetDependency */,
+			);
+			name = "Top ClockTests";
+			productName = "Top ClockTests";
+			productReference = 7C6AA4BF29A6946C0027A4AD /* Top ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7C6AA4C829A6946C0027A4AD /* Top ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C6AA4D929A6946C0027A4AD /* Build configuration list for PBXNativeTarget "Top ClockUITests" */;
+			buildPhases = (
+				7C6AA4C529A6946C0027A4AD /* Sources */,
+				7C6AA4C629A6946C0027A4AD /* Frameworks */,
+				7C6AA4C729A6946C0027A4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C6AA4CB29A6946C0027A4AD /* PBXTargetDependency */,
+			);
+			name = "Top ClockUITests";
+			productName = "Top ClockUITests";
+			productReference = 7C6AA4C929A6946C0027A4AD /* Top ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C6AA4A629A6946A0027A4AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7C6AA4AD29A6946A0027A4AD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7C6AA4BE29A6946C0027A4AD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7C6AA4AD29A6946A0027A4AD;
+					};
+					7C6AA4C829A6946C0027A4AD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7C6AA4AD29A6946A0027A4AD;
+					};
+				};
+			};
+			buildConfigurationList = 7C6AA4A929A6946A0027A4AD /* Build configuration list for PBXProject "Top Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C6AA4A529A6946A0027A4AD;
+			productRefGroup = 7C6AA4AF29A6946A0027A4AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C6AA4AD29A6946A0027A4AD /* Top Clock */,
+				7C6AA4BE29A6946C0027A4AD /* Top ClockTests */,
+				7C6AA4C829A6946C0027A4AD /* Top ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C6AA4AC29A6946A0027A4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6AA4B929A6946C0027A4AD /* Preview Assets.xcassets in Resources */,
+				7C6AA4B629A6946C0027A4AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6AA4BD29A6946C0027A4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6AA4C729A6946C0027A4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C6AA4AA29A6946A0027A4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6AA4B429A6946A0027A4AD /* ContentView.swift in Sources */,
+				7C6AA4B229A6946A0027A4AD /* Top_ClockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6AA4BB29A6946C0027A4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6AA4C429A6946C0027A4AD /* Top_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6AA4C529A6946C0027A4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6AA4CE29A6946C0027A4AD /* Top_ClockUITests.swift in Sources */,
+				7C6AA4D029A6946C0027A4AD /* Top_ClockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C6AA4C129A6946C0027A4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6AA4AD29A6946A0027A4AD /* Top Clock */;
+			targetProxy = 7C6AA4C029A6946C0027A4AD /* PBXContainerItemProxy */;
+		};
+		7C6AA4CB29A6946C0027A4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C6AA4AD29A6946A0027A4AD /* Top Clock */;
+			targetProxy = 7C6AA4CA29A6946C0027A4AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7C6AA4D129A6946C0027A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C6AA4D229A6946C0027A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7C6AA4D429A6946C0027A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Top Clock/Top_Clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Top Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KREYDT.Top-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7C6AA4D529A6946C0027A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Top Clock/Top_Clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Top Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KREYDT.Top-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7C6AA4D729A6946C0027A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KREYDT.Top-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Top Clock";
+			};
+			name = Debug;
+		};
+		7C6AA4D829A6946C0027A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KREYDT.Top-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top Clock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Top Clock";
+			};
+			name = Release;
+		};
+		7C6AA4DA29A6946C0027A4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KREYDT.Top-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Top Clock";
+			};
+			name = Debug;
+		};
+		7C6AA4DB29A6946C0027A4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KREYDT.Top-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Top Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C6AA4A929A6946A0027A4AD /* Build configuration list for PBXProject "Top Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6AA4D129A6946C0027A4AD /* Debug */,
+				7C6AA4D229A6946C0027A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6AA4D329A6946C0027A4AD /* Build configuration list for PBXNativeTarget "Top Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6AA4D429A6946C0027A4AD /* Debug */,
+				7C6AA4D529A6946C0027A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6AA4D629A6946C0027A4AD /* Build configuration list for PBXNativeTarget "Top ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6AA4D729A6946C0027A4AD /* Debug */,
+				7C6AA4D829A6946C0027A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C6AA4D929A6946C0027A4AD /* Build configuration list for PBXNativeTarget "Top ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6AA4DA29A6946C0027A4AD /* Debug */,
+				7C6AA4DB29A6946C0027A4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C6AA4A629A6946A0027A4AD /* Project object */;
+}
