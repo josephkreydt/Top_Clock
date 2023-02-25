@@ -13,5 +13,8 @@ struct Top_ClockApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .defaultSize(width: 300.0, height: 300.0)
+        .windowResizability(.contentMinSize)
     }
 }
